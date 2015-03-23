@@ -13,3 +13,77 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# ignore simplecov coverage data
+coverage
+
+# Ignore editor tempfiles.
+*~
+\#*#
+
+# Ignore database configuration
+config/database.yml
+#config/database*.yml
+config/database
+
+# Ignore secret password and key file.
+config/secrets.yml
+
+# mailer passwords and configuration
+config/mailer_passwords.yml
+config/group-mail-worker.yml
+
+# Ignore uploads folder content folder
+public/uploads/*
+uploads
+
+# ignore assets folder
+public/assets
+
+# Ignore licensed vendor scripts
+public/js/vendor/cooltext
+
+# Other things to ignore, suggested by github.
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+# .rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+
+# documentation
+.yardoc/*
+doc
+
+# bundler_stubs, see: http://ruby.railstutorial.org/chapters/static-pages#sec:eliminating_bundle_exec
+bundler_stubs
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# aptana project
+.project
+# vim swap files
+*.swp 
+
+
+brakeman.html
+rspec.failures
