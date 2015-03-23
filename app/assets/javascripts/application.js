@@ -11,7 +11,15 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
-//= require turbolinks
+//
+//= require jquery.purr
+//= require_boxes
+//= require make-js-more-like-ruby
+// TODO Reintegrate gmap4rails into your_platform. We have to get away form the fork.
+//= require gmaps4rails
 //= require your_platform
 //= require_tree .
+//
+//= require turbolinks

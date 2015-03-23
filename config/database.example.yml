@@ -15,7 +15,7 @@ development:
   database: schwarzburgplattform_development
   pool: 5
   username: root
-  password: Hiemei9ahbiep0dahno8
+  password: 
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -28,6 +28,6 @@ test:
   database: schwarzburgplattform_test
   pool: 5
   username: root
-  password: Hiemei9ahbiep0dahno8
+  password: 
   socket: /tmp/mysql.sock
 
