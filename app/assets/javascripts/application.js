@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require turbolinks
+//= require your_platform
 //= require_tree .

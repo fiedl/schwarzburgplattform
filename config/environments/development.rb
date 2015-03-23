@@ -34,4 +34,19 @@ Schwarzburgplattform::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  config.asset_host = 'http://localhost:3000'
+
+  
+  
+  # Plugin Reload
+  # see: http://stackoverflow.com/questions/5156061/reopening-rails-3-engine-classes-from-parent-app
+  # This is to be able to re-open engine classes.
+  config.reload_plugins = true
+  
+  # Mailer Settings
+  config.action_mailer.delivery_method = :letter_opener
+  
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000, protocol: 'http' }
+  
 end
