@@ -65,7 +65,7 @@ Schwarzburgplattform::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
-  config.asset_host = 'http://demo.your-platform.org'
+  config.asset_host = 'http://sb.your-platform.org'
   
   # SMTP Settings
   config.action_mailer.delivery_method = :smtp
@@ -97,6 +97,6 @@ Schwarzburgplattform::Application.configure do
   # Rails-3 syntax:
   ActionMailer::Base.default from: 'YourPlatform <support@your-platform.org>'
   
-  config.action_mailer.default_url_options = { host: 'schwarzburg.your-platform.org', protocol: 'http' }
+  config.action_mailer.default_url_options = { host: 'sb.your-platform.org', protocol: 'http' }
   
 end
