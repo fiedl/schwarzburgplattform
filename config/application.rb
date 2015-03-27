@@ -86,7 +86,7 @@ module Schwarzburgplattform
 
     # Enable the asset pipeline
     config.assets.enabled = true
-    config.assets.precompile += ['bootstrap_layout.css', 'bootstrap_setup.css', 'galleria-classic.css', 'galleria-classic.js']
+    config.assets.precompile += ['bootstrap_layout.css', 'bootstrap_setup.css', 'galleria-classic.js']
     
 
     # Version of your assets, change this if you want to expire all your assets
